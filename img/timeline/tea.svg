@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -13,15 +13,15 @@
    id="Capa_1"
    x="0px"
    y="0px"
-   viewBox="0 0 58 58"
-   style="enable-background:new 0 0 58 58;"
+   viewBox="0 0 512 512"
+   style="enable-background:new 0 0 512 512;"
    xml:space="preserve"
    inkscape:version="0.91 r13725"
    sodipodi:docname="tea.svg"><metadata
-     id="metadata57"><rdf:RDF><cc:Work
+     id="metadata111"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
-     id="defs55" /><sodipodi:namedview
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs109" /><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1"
@@ -32,17 +32,23 @@
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
      inkscape:window-height="1022"
-     id="namedview53"
+     id="namedview107"
      showgrid="false"
-     inkscape:zoom="4.0689655"
-     inkscape:cx="-9.0932203"
-     inkscape:cy="29"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="-765.83051"
+     inkscape:cy="256"
      inkscape:window-x="0"
      inkscape:window-y="30"
      inkscape:window-maximized="1"
-     inkscape:current-layer="Capa_1" /><g
+     inkscape:current-layer="Capa_1" /><rect
+     style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:15;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect4185"
+     width="512"
+     height="512"
+     x="0"
+     y="0" /><g
      id="g3"
-     transform="matrix(0.59745762,0,0,0.59745762,11.673729,11.674102)"><path
+     transform="matrix(4.5249854,0,0,4.5249854,124.77542,124.77825)"><path
        style="fill:#d2d5d7"
        d="m 54,49.286 c 0,0 -8.538,6.429 -27,6.429 -18.462,0 -27,-6.349 -27,-6.429 l 54,0 z"
        id="path5"
@@ -82,34 +88,4 @@
        style="fill:#eeaf4b"
        width="9.1999998"
        height="4.5"
-       id="rect21" /></g><g
-     id="g23"
-     transform="matrix(0.59745762,0,0,0.59745762,0,22.427648)" /><g
-     id="g25"
-     transform="matrix(0.59745762,0,0,0.59745762,0,22.427648)" /><g
-     id="g27"
-     transform="matrix(0.59745762,0,0,0.59745762,0,22.427648)" /><g
-     id="g29"
-     transform="matrix(0.59745762,0,0,0.59745762,0,22.427648)" /><g
-     id="g31"
-     transform="matrix(0.59745762,0,0,0.59745762,0,22.427648)" /><g
-     id="g33"
-     transform="matrix(0.59745762,0,0,0.59745762,0,22.427648)" /><g
-     id="g35"
-     transform="matrix(0.59745762,0,0,0.59745762,0,22.427648)" /><g
-     id="g37"
-     transform="matrix(0.59745762,0,0,0.59745762,0,22.427648)" /><g
-     id="g39"
-     transform="matrix(0.59745762,0,0,0.59745762,0,22.427648)" /><g
-     id="g41"
-     transform="matrix(0.59745762,0,0,0.59745762,0,22.427648)" /><g
-     id="g43"
-     transform="matrix(0.59745762,0,0,0.59745762,0,22.427648)" /><g
-     id="g45"
-     transform="matrix(0.59745762,0,0,0.59745762,0,22.427648)" /><g
-     id="g47"
-     transform="matrix(0.59745762,0,0,0.59745762,0,22.427648)" /><g
-     id="g49"
-     transform="matrix(0.59745762,0,0,0.59745762,0,22.427648)" /><g
-     id="g51"
-     transform="matrix(0.59745762,0,0,0.59745762,0,22.427648)" /></svg>
+       id="rect21" /></g></svg>
