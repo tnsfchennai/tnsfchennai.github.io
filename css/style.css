@@ -25,22 +25,23 @@ body{
 }
 
 h1 {
-	font-size: 36px;
+	font-size:4em;
 }
 h2 {
-	font-size: 32px;
+	font-size: 4em;
 }
 h3 {
-	font-size: 28px;
+	font-size: 3em;	
+	text-shadow: 2px 2px rgb(8, 8, 8)
 }
 h4 {
-	font-size: 24px;
+	font-size: 2em;
 }
 h5 {
-	font-size: 20px;
+	font-size: 1em;
 }
 h6 {
-	font-size: 18px;
+	font-size: 1em;
 }
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
