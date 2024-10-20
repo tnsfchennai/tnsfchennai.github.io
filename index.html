@@ -1,100 +1,508 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lecture series on 2024 Nobel Prize winners with registration">
-    <title>Nobel Prize 2024 Lecture Series</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+    <title>Popular Science Lecture Series</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- css -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href="color/default.css" rel="stylesheet" media="screen">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127789594-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
         }
-        h1 {
-            color: rgb(240, 43, 43);
-            text-align: center;
-            margin: 0;
-            padding-top: 50px;
-            font-size: 48px;
-        }
-        p {
-            color: rgb(94, 17, 238);
-            text-align: center;
-            font-size: 18px;
-        }
-        .hero-section {
-            background-image: url('img/bgslides/NobelPrizeCommon.png'); /* Replace with your image URL */
-            background-size: cover;
-            background-position: center;
-            height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        .nobel-list {
-            list-style: none;
-            padding: 20px;
-            margin: 20px;
-        }
-        .nobel-list li {
-            background-color: #fff;
-            margin: 10px 0;
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        .nobel-list li a {
-            text-decoration: none;
-            color: #1a73e8;
-            font-size: 18px;
-        }
-        .nobel-list li a:hover {
-            text-decoration: underline;
-        }
-        .register-section {
-            text-align: center;
-            margin-top: 30px;
-        }
-        .register-section a {
-            background-color: #1a73e8;
-            color: white;
-            padding: 15px 25px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-size: 18px;
-        }
-        .register-section a:hover {
-            background-color: #155bb5;
-        }
-    </style>
+        gtag('js', new Date());
+
+        gtag('config', 'UA-127789594-1');
+    </script>
+
 </head>
+
 <body>
 
-    <!-- Hero Section with Background Image -->
-    <div class="hero-section">
-        <h1>Nobel Prize 2024 Lecture Series</h1>
-        <h1>Conducted by Anna Centenary Library and Tamilnadu Science Forum</h1>
-        <p>Explore the groundbreaking discoveries of Nobel laureates in Physiology or Medicine and Physics</p>
-        <h2>Register for the Lecture Series</h2>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle nav</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+                <!-- Logo text or image -->
+                <a class="navbar-brand" href="index.html">TNSF</a>
+
+            </div>
+            <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="current"><a href="#intro">Home</a></li>
+                    <li><a href="#about">About Program</a></li>
+                    <li><a href="#services">Schedule</a></li>
+                    <li><a href="#speakers">Speakers</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScN5QiddwvOPSVR4FZ30mDtxiYRH6OAeCyZxjBwuDJdFK7v9A/viewform">Register</a></li> 
+                    <li><a href="#pastevents">Past Events</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- intro area -->
+    <div id="intro" style="background: url('img/bgslides/PSL83Banner.png') no-repeat center; background-size:cover;">
+        <div class="intro-text">
+            <div class="container">
+                <div class="col-md-12">
+                    <!--<h1 style="color: #ff5405; text-align: center ">Popular Science Lecture Series - A Review <br/> </h1>-->
+
+                    <h2 class="text-center" style="color: #b6fb9afd; text-align: center ">Popular Science Lecture - 83</h2>
+                    <h2 class="text-center" style="color: #67f0f0f8; text-align: center ">Keeping the clock ticking - Daily rhythms of our body in health and disease</h2> 
+                     <h3 class="text-center" style="color: #c7e921; text-align: left "><br/>Venue: Anna Centenary Library, <br/>Kotturpuram<br/>Chennai</h3> 
+                   <!-- <h3 class="text-center" style="color: #4220bbcb; text-align: right "><br/>Venue: Webinar zoom &<br/>Live on YouTube</h3> -->
+                    <h4 class="text-center" style="color: #cbf73b; text-align: right  ">October 26, 2024 <br/> 11:00 am - 1:00 pm <br> Organised by Anna Centenary Library & TNSF</h4>
+                    <a type="submit" class="btn btn-theme btn-lg " style="color: #fafafa" href="https://docs.google.com/forms/d/e/1FAIpQLScN5QiddwvOPSVR4FZ30mDtxiYRH6OAeCyZxjBwuDJdFK7v9A/viewform">REGISTER</a> 
+
+                </div>
+            </div>
+        </div> 
     </div>
 
-    <ul class="nobel-list">
-       <!-- <li><a href="indexpsl81physiology.html" target="_blank">PSL 81 The Nobel Prize in Physiology or Medicine 2024  Date: 19 Oct 2024</a></li> -->
-        <li><a href="indexpsl82nobelphysics.html" target="_blank">PSL 82 The Nobel Prize in Physics 2024               Date: 20 Oct 2024</a></li>
-        <li><a href="indexpsl83clocktickingrhythm.html" target="_blank">PSL 83 - Keeping the clock ticking - daily rhythms of our body in health and disease              Date: 26 Oct 2024</a></li>
-        <!--<li><a href="https://www.nobelprize.org/prizes/chemistry/2024/" target="_blank">The Nobel Prize in Chemistry 2024</a></li>-->
-    </ul>
+    <!-- About -->
+    <section id="about" class="home-section bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8">
+                    <div class="section-heading">
+                        <h2>About Program</h2>
+                        <div class="heading-line"></div>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row wow fadeInUp">
+                <div class="col-md-5">
+                    <img class="img img-responsive center-img" src="img/tnsf.jpg" alt="" style="border-radius: 10px; margin-top: 50px; margin-bottom: 30px;  width: 250px;">
+                </div>
 
-    <!--<div class="register-section">
-        <h2>Register for the Lecture Series</h2>
-        <p>Don’t miss out on the chance to participate in this unique event! Register now using the link below.</p>
-        <a href="https://example.com/registration" target="_blank">Register Now</a>
-    </div>-->
+                <div class="col-md-7 content" style="text-align: justify; text-justify: inter-word;">
+                    <p>
+                        <br/><br/><br/><br/><br/><br/> This is part of its efforts to popularize science to the general public and students who are pursuing science as their career. TNSF attempt to focus on students on higher science as everyone knows that learning of science at college within the curriculum is not enough to acquire holistic knowledge of science at the appropriate time. Hence, to fill the gap between what students are acquiring through the curriculum and what it is required, TNSF is planning its activities on higher science to students who are pursuing higher education.
+                    </p>
+                </div>
+            </div>
+            <div class="row wow fadeInUp">
+                <div class="col-md-5">
+                    <img class="img img-responsive center-img" src="img/PSL83Card.png" alt="" style="border-radius: 10px; margin-top: 70px; margin-bottom: 30px; width: 400px;">
+                </div>
+                <div class="col-md-7 content" style="text-align: justify; text-justify: inter-word;">
 
+                    <p>
+                    </br> </br>
+                        <b>About the Lecture</b>  </br>
+                        Our bodies work like clockwork most of the time, to such an extent that we often take our rhythmic behavioral 
+                        patterns for granted. Our daily ablutions, our sleep-wake cycle, and many other physiological processes have 
+                        a 24-hour cycle. When these processes get disrupted, for example after a long trans-Atlantic flight, we are 
+                        well aware of the ensuing few days of ill health. But how do our bodies know how to keep sync with the changing 
+                        day and night cycle outside? Do the cells in our tissues have a clock that keeps ticking and keeping time? 
+                        And why does this clock go haphazard when we take a long flight? In this talk, I will give a historical 
+                        overview of how this clock was first discovered in plants, and then explain the groundbreaking work that 
+                        went into identifying how exactly this clock functions, leading to the 2017 Nobel Prize in Medicine. 
+                        Finally, I will end with a brief description of how modern imaging methods combined with advanced machine 
+                        learning techniques are increasingly allowing measurements and characterization of the body clock in diseases like cancer and neurodegenerative disorders.  
+
+
+                </br></br>
+                
+                    </p>
+
+                </div>
+            </div>
+
+            
+            
+          <!--  
+            <br/> <b>Going deeper towards artificial general intelligence</b> <br/> The early days of AI succeeded in putting simpler theories of mind on a strong mathematical 
+            footing. Even in the 80s, researchers realised that representing complex functions using networks of neurons would require 
+            increasing the capacity of these networks to store more information. But a tractable way of “training” these networks or 
+            estimating the parameters eluded them. In the early part of this millennium, Hinton and his students used a simpler form 
+            of the Boltzmann machine - the Restricted Boltzmann Machine (RBM) - to provide a framework for layer-wise training of deep 
+            networks. This started the deep learning revolution that has led to the immense impact of AI on all walks of life, 
+            culminating in the twin Nobel awards this year. This talk will give an overview of the recent developments in deep 
+            learning and AI leading up to the current GenAI breakthroughs.
+           </p> -->
+ 
+        </div>
+        </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- Parallax 1 -->
+
+    <section id="parallax1" class="home-section parallax" data-stellar-background-ratio="0.5" style="padding: 50px 0px">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="color-light" style="color: #4d4d4d;">
+                        <h5 class="wow bounceInDown" data-wow-delay="0.1s" style="font-style: italic;text-align: justify;font: caption;">
+                            <b>
+                                எல்லாத் நேரத்திலும் நம் உடல்கள் ஒரு கடிகாரம் போல வேலை செய்கின்றன, அதனால் நம் நாளாந்த நடத்தைச் சுழற்சிகளை நாம் 
+                                பெரும்பாலும் கவனிக்காமல் கடந்து விடுகிறோம். நமது அன்றாட பழக்கவழக்கங்கள், தூக்க விழிப்பு சுழற்சி மற்றும் பிற உடல் 
+                                செயல்பாடுகள் 24 மணி நேர சுழற்சியைப் பின்பற்றுகின்றன. இந்த செயல்முறைகள் பாதிக்கப்படும்போது, எடுத்துக்காட்டாக, ஒரு நீண்ட 
+                                அஞ்சல் விமானப் பயணத்திற்குப் பிறகு, நமக்கு சில நாட்கள் உடல்நல குறைவாக உணர்வு வரும். ஆனால் நம் உடல்கள் வெளியிலிருந்து 
+                                மாற்றம் ஏற்படும் பகல் மற்றும் இரவு சுழற்சிகளுக்கு எவ்வாறு ஒத்திசைவாக இயங்குகின்றன? எங்கள் திசுக்களில் உள்ள செல்களுக்கு 
+                                நேரம் நிர்ணயிக்கும் கடிகாரம் இருக்கிறதா? மேலும், நீண்ட பயணம் செய்தால் அந்தக் கடிகாரம் ஏன் குழப்பமாகிறது? </br>
+
+                                இந்த உரையில், முதலில் இந்தக் கடிகாரம் தாவரங்களில் எவ்வாறு கண்டறியப்பட்டது என்பதை வரலாற்று ரீதியாக விளக்கி, பிறகு 
+                                இந்தக் கடிகாரம் எவ்வாறு செயல்படுகிறது என்பதற்கான மைல்கல்லாக அமைந்த ஆராய்ச்சியை விளக்குவேன், இது 2017ல் 
+                                மருத்துவத்திற்கான நோபல் பரிசை வென்றது. இறுதியாக, நவீன படங்களின் முறை combined advanced machine learning 
+                                தொழில்நுட்பங்களின் உதவியுடன், புற்றுநோய் மற்றும் நரம்பியல் செயலிழப்புக் கோளாறுகள் போன்ற நோய்களில் உடலின் கடிகாரத்தை
+                                 அளவிடுவது மற்றும் குணமடைப்பது எப்படி என்று விளக்குவேன்.</b>
+                        </h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="home-section bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8">
+                    <div class="section-heading">
+                        <h2>SCHEDULE</h2>
+                        <div class="heading-line"></div>
+                        <h4>Time: 11:00 am to 1:00 pm - October 26, 2024</h4>
+                        <h5>Attendance Registration starts at 10:30 am </h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <img class="img img-circle img-responsive center-img" src="img/timeline/ribbon.svg" style="width: 75px; height: 75px;">
+                    <img class="img img-responsive center-img" src="img/timeline/line.svg" style="height:50px; width:10px;">
+                
+                    <div class="panel panel-default text-center" style="border-color: #333;">
+                        <div class="panel-heading" style="background-color: #333;">
+                            <h4 style="color: #fff;">11:00 am</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>
+
+                                <b>Introduction</b> </br>
+                                
+                                
+                            </p>
+                        </div>
+                    </div>
+                    <img class="img img-responsive center-img" src="img/timeline/line.svg" style="margin-top: -20px; height:50px; width:10px;">
+                    <img class="img img-circle img-responsive center-img" src="img/timeline/employee.svg" style="width: 75px; height: 75px;">
+                    <img class="img img-responsive center-img" src="img/timeline/line.svg" style="height:50px; width:10px;">
+                    <div class="panel panel-default text-center" style="border-color: #333;">
+                        <div class="panel-heading" style="background-color: #333;">
+                            <h4 style="color: #fff;">11:10 am</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>
+                                
+                                
+                                <b>Dr. Shaon Chakrabarti</b> <i>
+                                     <br/> Faculty, Simon’s Centre, The National Centre for Biological Sciences, Bangaluru
+                                      </i></br>
+
+                                <b>Keeping the clock ticking – daily rhythms of our body in health and disease
+                                    </b>
+
+                            </p>
+                        </div>
+                    </div>
+
+             <!--      <img class="img img-responsive center-img" src="img/timeline/line.svg" style="margin-top: -20px; height:50px; width:10px;">
+                    <img class="img img-circle img-responsive center-img" src="img/timeline/employee.svg" style="width: 75px; height: 75px;">
+                    <img class="img img-responsive center-img" src="img/timeline/line.svg" style="height:50px; width:10px;">
+                    <div class="panel panel-default text-center" style="border-color: #333;">
+                        <div class="panel-heading" style="background-color: #333;">
+                            <h4 style="color: #fff;">4:55 pm</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>
+
+                                <b>Dr. Balaraman Ravindran</b> <i>
+                                     <br/> HoD ⋅ Department of DSAI, IIT Madras
+                                      </i></br>
+
+                                <b>Going deeper towards artificial general intelligence
+                                    </b>
+
+                            </p>
+                        </div>
+                    </div> --> 
+                                                           
+                     <img class="img img-responsive center-img" src="img/timeline/line.svg" style="margin-top: -20px; height:50px; width:10px;">
+                    <img class="img img-circle img-responsive center-img" src="img/timeline/ribbon.svg" style="width: 75px; height: 75px;">
+                    <img class="img img-responsive center-img" src="img/timeline/line.svg" style="height:50px; width:10px;">
+                    <div class="panel panel-default text-center" style="border-color: #333;">
+
+                        <div class="panel-heading" style="background-color: #333;">
+                            <h4 style="color: #fff;">12:10 pm </h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>
+                                Q & A 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parallax 2 -->
+    <section id="parallax2" class="home-section parallax" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="clients">
+                        <li class="wow fadeInDown" data-wow-delay="0.3s">
+                            <a href="http://tnsf.co.in">
+                                <h1 style="color: #fff;">தமிழ்நாடு அறிவியல் இயக்கம்</h1>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="speakers" class="home-section bg-gray">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8">
+                    <div class="section-heading">
+                        <h2>Speakers</h2>
+                        <div class="heading-line"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            
+
+           <!--  <div class="row">
+                <div class="col-md-12">
+                    <img class="img-circle img-responsive center-img" style="height: 200px; width: 200px;" src="img/speakers/Dr_Sitabhra_Sinha.jpg" alt="Dr. Sitabhra Sinha">
+                   
+                    <h2>Dr. Sitabhra Sinha</h2>
+                    <p> <b>Dr. Sitabhra Sinha</b>, is a Professor in the Physics group of the Institute of Mathematical Sciences (IMSc) at Chennai. Ph.D in nonlinear dynamics of recurrent neural network models done at the Machine Intelligence Unit, Indian
+                        Statistical Institute, Calcutta (1994-1998). Postdoctoral research on nonlinear dynamics of spatially extended systems with focus on biological systems at the Department of Physics, Indian Institute of Science at Bangalore (1998-2000
+                        and 2001-2002) and Weill Medical College of Cornell University at New York City (2000-2001) 
+                        
+                    </p>
+
+                </div>-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="img-circle img-responsive center-img" style="height: 200px; width: 200px;" src="img/speakers/Shaon.jpg" alt="Shaon">
+                       
+                        <h2>Dr. Shaon Chakrabarti</h2>
+                        <p> <b>Dr. Shaon Chakrabarti</b>   completed a PhD in Biophysics at the University of Maryland, College 
+                            Park, where he developed theoretical models to understand the force response of molecular motors and 
+                            protein-ligand complexes. He then moved to a post-doc position at Harvard University and Dana-Farber 
+                            Cancer institute, to work on evolutionary modeling of cancer and cancer treatment strategies. Eventually, 
+                            Shaon started working on experimental cell biology. Currently he is a faculty at the Simon’s Centre at NCBS, 
+                            where his lab combines theory, Machine Learning and experiments to answer fundamental questions on cell 
+                            proliferation, circadian clocks and drug resistance in cancer. 
+                        </p>
+                    </div> 
+                             
+        </div>
+        
+                        
+</div>
+    </section>
+
+    <!-- Bottom widget -->
+    <section id="contact" class="home-section bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="contact-widget wow bounceInLeft">
+                        <i class="fa fa-map-marker fa-4x"></i>
+                        <h5>Venue</h5>
+                         <p>
+                            Anna Centenary Library, <br/>Kotturpuram,
+                             <br/>Chennai  
+                        </p>
+                        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.291375406534!2d80.23777597488375!3d13.01710781387938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526772eb0d4451%3A0xcfc3c35cdd3a47d3!2sAnna%20Centenary%20Library!5e0!3m2!1sen!2sin!4v1728406213895!5m2!1sen!2sin" 
+                                width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+                               
+            
+                                
+                     <!-- <p>Webinar <br/>Zoom<br/> </p> -->
+                        
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-widget wow bounceInUp">
+                        <i class="fa fa-phone fa-4x"></i>
+                        <h5>Call</h5>
+                        <p>
+                            +91 9176512565<br>
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-widget wow bounceInRight">
+                        <i class="fa fa-envelope fa-4x"></i>
+                        <h5>Email us</h5>
+                        <p>
+                            tamilnadutnsfchennai@gmail.com<br />
+                            <!--contact-tnsf@gmail.com-->
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <!-- Past Events -->
+    <section id="pastevents" class="home-section bg-white">
+        <div class="container">
+            <div class="row">
+
+                <div class="contact-widget wow bounceInLeft">
+                    <i class="fa fa-4x"></i>
+                    <h5>Past Events</h5>
+                    <p>
+                        <a href="indexPopularScience.html"> Nobel Prize 2018 - [Physics] and Special Report on Global Warming of 1.5ºC by IPCC </a></br>
+                        <a href="IndexEmergence.html"> Talk on Raman Effect & Emergence </a></br>
+                        <a href="indexClimateChange.html"> Talk on Climate Change </a></br>
+                        <a href="indexLHCHiggsBoson.html"> LHC and Detection of Higgs Boson </a></br>
+                        <a href="indexEvolutionandDatura.html"> Evolution And Datura - பரிணாம வளர்ச்சியும் ஊமத்தையும் </a></br>
+                        <a href="indexScience4Peace.html"> Science for Peace </a> </br>
+                        <a href="indexAIandCrypto.html"> Data Science, Artificial Intelligence and Cryptography</a><br>
+                        <a href="indexBiodiversity.html">Biodiversity in Western Ghats</a> </br>
+                        <a href="indexNobelPrize2019P1.html">Nobel Prize 2019 - Physiology and Medicine</a> </br>
+                        <a href="indexNobelPrize2019P2.html">Nobel Prize 2019 - Physics</a><br>
+                        <a href="indexNobelPrize2019Chemistry.html">Nobel Prize 2019 - Chemistry</a><br>
+                        <a href="indexFMRI.html">Evidence from a neuroimaging study of Sports</a><br>
+                        <a href="indexcryosphereandclimateoftheearth.html">The cryosphere and climate of the earth</a><br>
+                        <a href="PSL18_Demystifying_Coronavirus.html">Demystifying Coronavirus</a><br>
+                        <a href="indexTheDiscoveryofHCV.html">The discovery of Hepatitis C virus</a><br>
+                        <a href="indexNobelPrize2020Physics.html">The black hole formation and the centre of our galaxy</a><br>
+                        <a href="indexNobelPrize2020Chemistry.html">Genome Editing</a><br>
+                        <a href="indexyouvsbrain.html">From “you and your brain” to “you vs. your brain”</a><br>
+                        <a href="indexcovid19vaccines.html">Status of COVID-19 Vaccines</a><br>
+                        <a href="indexartandmetal.html">Art and Metal Technology of Chola Bronzes</a><br>
+                        <a href="indexHimalayanGlaciers.html">Himalayan Glaciers - Science & Facts</a><br>
+                        <a href="indexCovidCreatedREvolved.html">Covid-19: Created or evolved?</a><br>
+                        <a href="indexai.html">செயற்கை நுண்ணறிவு: வாய்ப்புகளும், சவால்களும்</a><br>
+                        <a href="indexdnasequence.html">Next-Generation DNA Sequencing Technologies</a><br>
+                        <a href="indexDarkMatter.html">Dark Matter and its Detection</a><br>
+                        <a href="indexStevenWeinberg.html">Steven Weinberg: The physicist and his physics </a><br>
+                        <a href="indexNobelPhysics2021.html">The Nobel Prize in Physics 2021 </a><br>
+                        <a href="indexNobelPhyOrMed2021.html">The Nobel Prize in Physiology or Medicine 2021</a><br>
+                        <a href="indexNobelChemistry2021.html">The Nobel Prize in Chemistry 2021</a><br>
+                        <a href="indexSciEqClimateAction.html">Science, Equity, and Climate Action at COP-26</a><br>
+                        <a href="indexpsl45posttruthindia.html">A-Satyameva Jayate in Post-Truth India</a><br>
+                        <a href="indexJWSTelescope.html">Unraveling the universe with James Webb Space Telescope</a><br>
+                        <a href="indexinvisbleempire.html">Invisible Empire: How viruses and microbes shape our world</a><br>
+                        <a href="indexminiaturesun.html">COULD WE BUILD A MINIATURE SUN ON EARTH?</a><br>
+                        <a href="indexourstartoursun.html">The Story of our Star, the Sun</a><br>
+                        <a href="indexknotstheory.html">To be or knot to be</a><br>
+                        <a href="indexpcarefrogs.html">Evolution of Parental Care in frogs and toads</a><br>
+                        <a href="indexpsl52QEphy2022.html">Quantum Entanglement</a><br>
+                        <a href="indexpsl53genomesequence.html">Genome Sequencing of the Extinct</a><br>
+                        <a href="indexpsl54clickchemistry.html">The Nobel Prize in Chemistry 2022 - Click Chemistry</a><br>
+                        <a href="indexpsl55puztoqtmphy.html">The 36 officers of Euler: From puzzle to quantum physics</a><br>
+                        <a href="indexpsl56chemistryexperiments.html">Chemistry through Experiments</a><br>
+                        <a href="indexpsl57geneediting.html">Gene Editing-based Novel therapeutics</a><br>
+                        <a href="indexpsl58darwinday.html">PSL 58 - Darwin Day Special Lecture</a><br>
+                        <a href="indexpsl59masalalab.html">PSL 59 - Masala Lab: The Science of Indian Cooking</a><br>
+                        <a href="indexpsl60acadintelli.html">PSL 60 -Academic Intelligence</a><br>
+                        <a href="indexpsl61gravitationalwave.html">PSL 61 -Exciting Development in exploring Gravitational Waves</a><br>
+                        <a href="indexpsl62complexworld.html">PSL 62 - Our Wondrous and Complex World</a><br>
+                        <a href="indexpsl63quantumdots.html">PSL 63 - Nobel Prize in Chemistry 2023 - Discovery and Development of Quantum Dots</a><br>
+                        <a href="indexpsl64mrnavaccine.html">PSL 64 - Nobel Prize in Physiology or Medicine 2023 - mRNA vaccines - a new era in vaccinology</a><br>
+                        <a href="indexpsl65opticalpulses.html">PSL 65 - Nobel Prize in Physics 2023 - Conceiving and developing Attosecond optical pulses</a><br>
+                        <a href="indexpsl66opticalpulses.html">PSL 66 - Nobel Prize in Economics 2023 - Women and Work in India: Learning from Claudia Goldin</a><br>
+                        <a href="indexpsl67Conference.html">PSL 67 - 2nd Conference and COP 28: On Fossil Fuels and Challenges</a><br>
+                        <a href="indexpsl68astroblackhole.html">PSL 68 - Understanding the Heftiest Things We Know: Giant Distant Black Holes</a><br>
+                        <a href="indexpsl69animalfromzero.html">PSL 69 - How to make an animal from "0"</a><br>
+                        <a href="indexpsl70co2capture.html">PSL 70 - How to capture and handle carbon dioxide - A sustainability factor</a><br>
+                        <a href="indexpsl71simplifyingbrain.html">PSL 71 - Simplifying the Brain - On the need for Reforms in Brain Theory</a><br>
+                        <a href="indexpsl72peterhiggsmemorial.html">PSL 72 - Past, Present, and the future for the Higgs boson called “God Particle”</a><br>
+                        <a href="indexpsl72peterhiggsmemorial.html">PSL 73 - From Accidents to Fame - Role of Serendipity in Science</a><br>
+                        <a href="indexpsl74covidvaccines.html">PSL 74 - Covid Vaccines: Good, Bad and Ugly - An Immunologist Perspective</a><br>
+                        <a href="indexpsl75genomics.html">PSL 75 - Gene, Genome, Genomics - The 3Gs and the Society</a><br>
+                        <a href="indexpsl76sustain.html">PSL 76 - Demystifying Sustainability: Addressing Global Concerns through Scientific Progress</a><br>
+                        <a href="indexpsl77cervicalcancertherapy.html">PSL 77 - Hope on the Horizon: Novel Therapy for Cervical Cancer</a><br>
+                        <a href="indexpsl77cervicalcancertherapy.html">PSL 78 - What is the Universe made up of?</a><br>
+                        <a href="indexpsl79ScientificDrilling.html">PSL 79 - Scientific Drilling: Opening Windows to the Planet’s Depths</a><br>
+                        <a href="indexpsl80scientificdrilling.html">PSL 80 - Black Holes and Gravitational Waves: A New Era in Astrophysics</a><br>
+                        
+                    </p>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Copyright &copy; TNSF. All rights reserved.</p>
+                    <div class="credits">
+                        Maintained by Team, Popular Science Lecture Series
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- js -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/mb.bgndGallery.js"></script>
+    <script src="js/jquery.simple-text-rotator.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/stellar.js"></script>
+
+    <!-- Template Custom Javascript File -->
+    <script src="js/custom.js"></script>
+    <!-- js -->
 </body>
+
 </html>
